@@ -1,0 +1,13 @@
+@import "globalCss.scss";
+
+.grid-container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 25vh 75vh;
+    grid-template-areas: "header header"
+                          "aside main-content";
+
+    background-image: linear-gradient(to bottom, #440261, $bg-primary);
+}
